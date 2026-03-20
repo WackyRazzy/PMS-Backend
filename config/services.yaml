@@ -18,7 +18,7 @@ parameters:
     # The frontend code checks with each click on page if the jwt token has expired and if so - user is logged out
     # With this, the token is refreshed every "X" seconds so that user won't be logged out while just handling front
     # based page which don't have any ajax calls etc.
-    jwt_token_lifetime: 3600
+    jwt_token_lifetime: 28800
 
 # Resolving deprecation for moving from 4.4x to 5.x
 sensio_framework_extra:
